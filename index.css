@@ -1,0 +1,52 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+
+#map {
+position: absolute;
+top: 40px;
+left: 20px;
+width: 1080px;
+height: 550px;
+opacity: 0.8;
+}
+
+#world {
+position: absolute;
+top: 40px;
+left: 20px;
+width: 1080px;
+height: 550px;
+outline: 1px solid #aaa;
+}
+
+#info {
+position: absolute;
+top: 10px;
+left: 400px;
+}
+
+.city {
+position: absolute;
+background: #d60;
+width: 4px;
+height: 4px;
+border-radius: 50%;
+}
+
+/* start of answer */
+.citySelect{
+position: absolute;
+background: black;
+width: 4px;
+height: 4px;
+border-radius: 50%;
+}
+
+
+/* end of answer */
+
+.nomap{
+display: none;
+}

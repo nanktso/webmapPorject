@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Week 2: Scale and Centre Map Using Styles</title>
+  </head>
+  <body>
+   <div class="container">
+     <img class="map" src="https://preview.ibb.co/fXRC0x/map.png" alt="map">
+   </div>
+  </body>
+</html>
+
+
+CSS
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.map {
+  width: 100%;
+  max-width: 1000px;
+}
+
+
+JS
+
